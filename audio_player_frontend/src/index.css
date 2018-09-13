@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  position: relative;
+  max-width: 100%;
+  max-height: 100vh;
+}
+
+html {
+  max-height: 100vh;
+}
+
+.App {
+  background-color: #2A3947; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.audio-player {
+  text-align: center;
+}
+
+.card-style {
+  margin: 0;
+  padding:0;
+  align-content: center;
+
+}
+.card, .card-deck {
+    background-color: #0A0C0E;
+}
+.card {
+  margin: auto;
+  padding:0;
+  float: none;
+}
+h5 {
+  color: white;
+}
+p {
+  color: #A2A2A2;
+}
+
+.card-deck {
+  margin: 10%;
+  width: 90%;
+
+  position: static;
+}
+
+.audio-controls {
+  width:50px;
+  height:auto;
+
+}
+
+.button-previous {
+  position: absolute;
+  left: 20%;
+}
+
+.button-next {
+  position: absolute;
+  right: 20%;
+}
+
+.song-list-item {
+  border: 1px solid;
+  margin:0px;
+  display: inline-block;
+}
+.song-item {
+  margin:0;
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.details-thumb {
+  height:40px;
+}
+
+.button-pause-list {
+  height: 30px;
+}
+
+.button-play-list {
+  height: 30px;
+}
+
+.audioPlayer-songTitle {
+  margin-bottom: 0px;
+}
